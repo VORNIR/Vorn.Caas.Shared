@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Vorn.Haas.Hubs.EntityHub;
+using Vorn.Hub.EntityHub;
 namespace Vorn.Caas.Shared;
 [EntityHubTracable]
-public class Sms
+public class Sms : IEntityHubTracable
 {
     [Key]
     public int Id { get; set; }
