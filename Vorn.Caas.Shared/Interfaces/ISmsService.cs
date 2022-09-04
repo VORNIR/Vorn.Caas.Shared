@@ -1,5 +1,4 @@
-﻿using Vorn.Caas.Shared;
-
+﻿namespace Vorn.Caas;
 public interface ISmsService
 {
     Task<Sms> SendSms(string phoneNumber, string message);

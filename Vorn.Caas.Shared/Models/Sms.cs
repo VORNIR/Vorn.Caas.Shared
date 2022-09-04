@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Vorn.Hub.EntityHub;
-namespace Vorn.Caas.Shared;
+namespace Vorn.Caas;
 [EntityHubTracable]
 public class Sms : IEntityHubTracable
 {
