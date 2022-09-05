@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -10,7 +10,6 @@
 		<PackageDescription>Vorn Caas Shared Classes</PackageDescription>
 		<RepositoryUrl>https://github.com/VORNIR/Vorn.Caas.Shared</RepositoryUrl>
 	</PropertyGroup>
-
 	<ItemGroup>
 	  <PackageReference Include="Vorn.Hub.EntityHub" Version="0.2.1" />
 	</ItemGroup>
